@@ -1,8 +1,8 @@
 # Author: Ryan (AMDG) 10/6/21
 # weight in kg height in m
 
-weight = int(input("Enter weight: "))
-height = int(input("Enter height: "))
+weight = float(input("Enter weight: "))
+height = float(input("Enter height: "))
 
 bmi = weight / (height ** 2)
 if bmi < 19:
